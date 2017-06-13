@@ -14,7 +14,7 @@ This tiny piece of software simulates a [lircd](http://www.lirc.org/) and is lis
 of `button1` of `remote1`. Another 2 seconds later `button2` will be pressed 3 times with incrementing repeat counter
 and 400ms pause between each press. That's all. ;-)
 
-I use this for automated testing of [lirc-simulator](https://github.com/hobbyquaker/lirc-simulator).
+I use this for automated testing of [lirc2mqtt](https://github.com/hobbyquaker/lirc2mqtt).
 
 
 # Install
