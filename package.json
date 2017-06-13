@@ -1,0 +1,33 @@
+{
+  "name": "lirc-simulator",
+  "version": "1.0.0",
+  "description": "Rudimentary LIRC simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "camo-purge ; xo --space 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbyquaker/lirc-simulator.git"
+  },
+  "keywords": [
+    "lirc",
+    "simulator",
+    "test",
+    "automation",
+    "infrared"
+  ],
+  "author": "Sebastian Raff <hq@ccu.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/lirc-simulator/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/lirc-simulator#readme",
+  "devDependencies": {
+    "camo-purge": "latest",
+    "xo": "latest"
+  },
+  "dependencies": {
+    "yalm": "^4.0.2"
+  }
+}
