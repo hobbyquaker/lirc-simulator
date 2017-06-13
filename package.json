@@ -1,8 +1,12 @@
 {
   "name": "lirc-simulator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rudimentary LIRC simulator",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "lirc-simulator": "./index.js"
+  },
   "scripts": {
     "test": "camo-purge ; xo --space 4"
   },
